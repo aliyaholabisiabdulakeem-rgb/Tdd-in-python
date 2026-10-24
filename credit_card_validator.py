@@ -25,7 +25,7 @@ def check_card_validity(card_array):
     total= 0
     array_length = len(card_array)
 
-    for index in range(array_length - 1, -1, -1):
+    for index in range(array_length - 1):
         current_digit = card_array[index]
         position_from_right = array_length - 1 - index
 
